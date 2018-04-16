@@ -2,10 +2,14 @@
 
 Implementation of a customizable feed-forward neural network from scratch.
 
+![2D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/2dplot.png?raw=true)
+
+![3D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/3dplot.png?raw=true)
 
 ### Usage:
-* Simply execute "test.py" to see an example.
-* The example neural net receives a sequential input x and tries to generalize for the following two equations:
+Simply execute "test.py" to see an example.
+
+The example neural net has 1 neuron on the input layer (receives x) and tries to generalize for the two equations (y1 and y2) for its output layer:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=y1&space;=&space;x*\frac{sin(\frac{2\pi}{2x&plus;1})}{10}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y1&space;=&space;x*\frac{sin(\frac{2\pi}{2x&plus;1})}{10}" title="y1 = x*\frac{sin(\frac{2\pi}{2x+1})}{10}" /></a>
 
@@ -13,8 +17,9 @@ Implementation of a customizable feed-forward neural network from scratch.
 
 * The 2D plot has fixed batch size and tests various learning rates
 * The 3D plot tests out various batch sizes and learning rates at the same time.
+Comment out their respective sections to see their output.
 
-This implementation has following properties;
+*This implementation has following properties;*
 
 * Stochastic gradient descent, with modifiable mini-batch size.
 * Shuffles testing data after each epoch
