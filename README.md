@@ -2,12 +2,12 @@
 
 Implementation of a customizable feed-forward neural network from scratch.
 
-![2D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/2dplot.png?raw=true)
+![2D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/images/2dplot.png?raw=true)
 
-![3D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/3dplot.png?raw=true)
+![3D Plot](https://github.com/canmetan/FeedForwardNeuralNetwork/blob/master/images/3dplot.png?raw=true)
 
 ### Usage:
-Simply execute "test.py" to see an example.
+Simply execute "test.py" to see it in action. "FFNN.py" contains the network itself.
 * The 2D plot has fixed batch size and tests various learning rates
 * The 3D plot tests out various batch sizes and learning rates at the same time.
 Comment out their respective sections to see their output.
