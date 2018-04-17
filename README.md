@@ -10,6 +10,7 @@ Implementation of a customizable feed-forward neural network from scratch.
 * Python 3.5.3 or newer.
 * Numpy (for matrix operations & ndarrays)
 * Scipy (for an accurate sigmoid function)
+* [optional] Matplotlib (only for the plots in test.py)
 
 ### Usage:
 Simply execute "test.py" to see it in action. "FFNN.py" contains the network itself.
